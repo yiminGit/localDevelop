@@ -1,3 +1,5 @@
+package com.test.design.factory;
+
 public class Square implements Shape {
 
    @Override
