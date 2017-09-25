@@ -30,6 +30,6 @@ public class Singleton4 {
     }
     
     public void showMessage(){
-        System.out.println("Hello World!");
+        System.out.println("Hello World! "+ Singleton4.class.getSimpleName());
      }
 }
