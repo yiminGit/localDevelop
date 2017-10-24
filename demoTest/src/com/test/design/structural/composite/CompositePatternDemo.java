@@ -1,5 +1,10 @@
 package com.test.design.structural.composite;
 
+/**
+ * 主要解决：它在我们树型结构的问题中，模糊了简单元素和复杂元素的概念，客户程序可以向处理简单元素一样来处理复杂元素，从而使得客户程序与复杂元素的内部结构解耦。
+ * @author Bryant
+ *
+ */
 public class CompositePatternDemo {
 
 	public static void main(String[] args) {
